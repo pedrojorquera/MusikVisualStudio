@@ -1,0 +1,13 @@
+﻿<!--Este estilo es para poner en morado el titulo del MainWindow (Musik)-->
+    <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="cambiarColorTitulo" TargetType="{x:Type Label}">
+        <Setter Property="Foreground" Value="#FF5B5B5B"/>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Foreground" Value="BlueViolet"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+
+</ResourceDictionary>

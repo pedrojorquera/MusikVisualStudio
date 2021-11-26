@@ -1,0 +1,20 @@
+﻿<Window x:Class="musikVS.gui.dialogoAlta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:musikVS.gui"
+        mc:Ignorable="d"
+        Title="dialogoAlta" Height="282" Width="442">
+    <Grid>
+        <Label Content="Titulo:" HorizontalAlignment="Left" Margin="106,56,0,0" VerticalAlignment="Top"/>
+        <Label Content="Autor:" HorizontalAlignment="Left" Margin="106,95,0,0" VerticalAlignment="Top"/>
+        <Label Content="Fecha entrada:" HorizontalAlignment="Left" Margin="106,133,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Validation.Error="Validation_Error" Text="{Binding Path=Titulo, NotifyOnValidationError=true, ValidatesOnDataErrors=true}" Margin="193,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Validation.Error="Validation_Error" Text="{Binding Path=Autor, NotifyOnValidationError=true, ValidatesOnDataErrors=true}" Margin="193,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <DatePicker HorizontalAlignment="Left" SelectedDate="{Binding Path=FechaEntrada}" VerticalAlignment="Top" Margin="193,133,0,0"/>
+        <Button x:Name="bttAceptar" Content="Aceptar" HorizontalAlignment="Left" Margin="148,184,0,0" VerticalAlignment="Top" Click="bttAceptar_Click"/>
+        <Button x:Name="bttCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="277,184,0,0" VerticalAlignment="Top" Click="bttCancelar_Click"/>
+
+    </Grid>
+</Window>
