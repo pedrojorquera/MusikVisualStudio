@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MenuPrincipal" Height="653" Width="800">
     <Grid Margin="0,0,10,-6">
-        <Label Content="Bienvenido de nuevo" HorizontalAlignment="Left" Margin="205,41,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF5B5B5B"/>
+        <Label Content="Bienvenido de nuevo" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" FontSize="20" Foreground="#FF5B5B5B"/>
         <TreeView HorizontalAlignment="Left" Height="202" Margin="632,15,0,0" VerticalAlignment="Top" Width="254" BorderBrush="White">
             <TreeViewItem x:Name="userOptions" Header="" Height="186" Width="241" BorderBrush="Black" Background="Transparent">
                 <TreeViewItem Header="Ver perfil" Name="VerPerfil" MouseDoubleClick="clickOnVerPerfil"/>
@@ -30,7 +30,7 @@
         <Label Content="Tus PlayLists" HorizontalAlignment="Left" Margin="558,132,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Foreground="#FF5B5B5B"/>
         <Button Content="Sugerir cancion" HorizontalAlignment="Left" Margin="108,575,0,0" VerticalAlignment="Top" Width="144" Foreground="#FF5B5B6C" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" FontWeight="Bold"/>
         <Button Content="Crear PlayList" HorizontalAlignment="Left" Margin="545,575,0,0" VerticalAlignment="Top" Width="130" Foreground="#FF5B5B6C" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" FontWeight="Bold"/>
-        <Image HorizontalAlignment="Center" Height="100" Margin="0,83,0,0" VerticalAlignment="Top" Width="100" Source="/gui/Clr_nyx Music Player_200px.png"/>
+        <Image HorizontalAlignment="Center" Height="100" Margin="0,83,0,0" VerticalAlignment="Top" Width="100" Source="/Imagenes/Clr_nyx Music Player_200px.png"/>
         <Rectangle HorizontalAlignment="Center" Height="387" Margin="0,183,0,0" VerticalAlignment="Top" Width="36">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
