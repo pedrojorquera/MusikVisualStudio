@@ -7,35 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="botongris.png" />
-    <None Remove="Captura.PNG" />
     <None Remove="Clr_nyx Music Player_200px.png" />
-    <None Remove="Clr_nyx Music Player_96px.png" />
-    <None Remove="cooltext397063802161699.png" />
     <None Remove="gui\59091.png" />
     <None Remove="gui\Clr_nyx Music Player_200px.png" />
     <None Remove="gui\Male User_128px.png" />
     <None Remove="gui\victorian-2452517_960_720.png" />
-    <None Remove="iconoapp_16.png" />
-    <None Remove="Imagen2.jpg" />
-    <None Remove="imagenindex.png" />
-    <None Remove="imagenindex2.png" />
+    <None Remove="imagenes\Clr_nyx Music Player_200px.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="botongris.png" />
-    <Resource Include="Captura.PNG" />
     <Resource Include="Clr_nyx Music Player_200px.png" />
-    <Resource Include="Clr_nyx Music Player_96px.png" />
-    <Resource Include="cooltext397063802161699.png" />
     <Resource Include="gui\59091.png" />
     <Resource Include="gui\Clr_nyx Music Player_200px.png" />
     <Resource Include="gui\Male User_128px.png" />
     <Resource Include="gui\victorian-2452517_960_720.png" />
-    <Resource Include="iconoapp_16.png" />
-    <Resource Include="Imagen2.jpg" />
-    <Resource Include="imagenindex.png" />
-    <Resource Include="imagenindex2.png" />
+    <Resource Include="imagenes\Clr_nyx Music Player_200px.png" />
   </ItemGroup>
 
 </Project>
