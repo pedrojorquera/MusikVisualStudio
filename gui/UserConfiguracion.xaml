@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="UserConfiguracion" Height="450" Width="450">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="100" Margin="35,35,0,0" VerticalAlignment="Top" Width="100" Source="/gui/Male User_128px.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="35,35,0,0" VerticalAlignment="Top" Width="100" Source="/imagenes/Male User_128px.png"/>
         <Label Content="USERNAME" HorizontalAlignment="Left" Margin="140,48,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" Background="Transparent" Foreground="#FF636363"/>
         <Rectangle HorizontalAlignment="Left" Height="243" Margin="35,154,0,0" Stroke="Black" VerticalAlignment="Top" Width="377"/>
         <Label Content="Nombre" HorizontalAlignment="Left" Margin="168,214,0,0" VerticalAlignment="Top" FontSize="22"/>

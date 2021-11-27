@@ -14,7 +14,7 @@
                 <TreeViewItem Header="Cerrar sesion..." Name="CerrarSesion" MouseDoubleClick="clickOnCerrarSesion"/>
             </TreeViewItem>
         </TreeView>
-        <Image HorizontalAlignment="Left" Height="33" Margin="614,10,0,0" VerticalAlignment="Top" Width="28" Source="/gui/Male User_128px.png"/>
+        <Image HorizontalAlignment="Left" Height="33" Margin="614,10,0,0" VerticalAlignment="Top" Width="28" Source="/imagenes/Male User_128px.png"/>
         <DataGrid Height="404" VerticalAlignment="Top" Margin="10,166,440,0" SelectionChanged="DataGrid_SelectionChanged" BorderBrush="{x:Null}" Foreground="#FF5B5B6C">
             <DataGrid.Effect>
                 <BlurEffect/>

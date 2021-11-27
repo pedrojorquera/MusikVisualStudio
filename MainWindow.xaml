@@ -5,7 +5,6 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:musikVS"
         mc:Ignorable="d"
-        Icon="/Clr_nyx Music Player_200px.png"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="White">
         <Button x:Name="buttonIniciarSesion" Content="Iniciar sesión" Foreground="#FF5B5B5B" HorizontalAlignment="Left" Margin="158,0,0,0" VerticalAlignment="Center" Height="40" Width="154" FontSize="24" FontFamily="Bauhaus 93" VerticalContentAlignment="Bottom" BorderThickness="5,5,5,5" BorderBrush="White" Click="Button_ClickLogin" Padding="1,-1,1,0" UseLayoutRounding="False" Background="White" ScrollViewer.CanContentScroll="True" RenderTransformOrigin="0.5,0.5">

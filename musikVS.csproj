@@ -4,24 +4,27 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>imagenes\iconoapp.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Clr_nyx Music Player_200px.png" />
-    <None Remove="gui\59091.png" />
     <None Remove="gui\Clr_nyx Music Player_200px.png" />
     <None Remove="gui\Male User_128px.png" />
-    <None Remove="gui\victorian-2452517_960_720.png" />
     <None Remove="imagenes\Clr_nyx Music Player_200px.png" />
+    <None Remove="imagenes\Male User_128px.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="imagenes\iconoapp.ico" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Clr_nyx Music Player_200px.png" />
-    <Resource Include="gui\59091.png" />
     <Resource Include="gui\Clr_nyx Music Player_200px.png" />
     <Resource Include="gui\Male User_128px.png" />
-    <Resource Include="gui\victorian-2452517_960_720.png" />
     <Resource Include="imagenes\Clr_nyx Music Player_200px.png" />
+    <Resource Include="imagenes\Male User_128px.png" />
   </ItemGroup>
 
 </Project>

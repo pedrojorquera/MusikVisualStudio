@@ -31,7 +31,6 @@ namespace musikVS.gui
         {
             UserConfiguracion userWindow = new UserConfiguracion();
             userWindow.Show();
-            this.Close();
         }
         //Para volver a login
         private void clickOnCerrarSesion(object sender,RoutedEventArgs e)
@@ -39,6 +38,7 @@ namespace musikVS.gui
             Login login = new Login();
             login.Show();
             this.Close();
+
         }
         //He añadido esté botón para hacer los demas apartados del proyecto, he hecho esto porque no sabia como integrar bien las funcionalidades
         //pedidas en los otros apartados para este proyecto.
